@@ -1,0 +1,26 @@
+#cards {
+  display: flex;
+  flex-wrap: wrap;
+  width: 95vw;
+  height: 80vh;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+}
+.card {
+  width: 20%;
+  height: 20%;
+  text-align: center;
+  border: 1px solid white;
+}
+body {
+  background-color: black;
+  color: white;
+}
+.card:hover {
+  cursor: pointer;
+  background-color: green;
+}
+.card img {
+  width: 25%;
+}
